@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUnsignedShort xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <unsignedShort>2097</unsignedShort>
+  <unsignedShort>2098</unsignedShort>
+  <unsignedShort>2101</unsignedShort>
+  <unsignedShort>2102</unsignedShort>
+  <unsignedShort>2103</unsignedShort>
+  <unsignedShort>2104</unsignedShort>
+  <unsignedShort>2105</unsignedShort>
+</ArrayOfUnsignedShort>

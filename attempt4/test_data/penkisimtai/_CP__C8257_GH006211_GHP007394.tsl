@@ -1,0 +1,29 @@
+// connector verification program
+
+/*  information
+    Housing         - 10425     (GH006211)  - 1865259
+    Adapter         - 3377      (GHP007394) - 1507598
+*/
+
+
+UIMessage('C8257 extras', TextColor='Blue', BackColor='White');
+UIMessage('information', TextColor='Gray', BackColor='White');
+UIMessage('Housing - 10425 (GH006211) - 1865259', TextColor='Gray', BackColor='White');
+UIMessage('Adapter - 3377  (GHP007394) - 1507598', TextColor='Gray', BackColor='White');
+UIMessage('');
+TestConnection('C8257 locking', "C8257 GND", "C8257 LOCK");
+TestConnection('C8257 lever', "C8257 GND", "C8257 LEVER");
+ParamContinuity(Tmeas=500ms);
+TestConnection('C8257 cover', "C8257 SLS 1", "C8257 SLS 2");
+ParamResetContinuity();
+TestConnection('C8257 cover', "C8257 GND", "C8257 COVER_HIGH");
+TestConnection('C8257 cover', "C8257 GND", "C8257 COVER_LOW");
+TestConnection('C8257 leak test', "C8257 SEAL 1", "C8257 SEAL 2");
+UIMessage('- - - - - - - - - - - - - - - - - - - -');
+
+
+TestConnection('C8257 1/4', "C8257 1", "C8257 4");
+TestConnection('C8257 2/3', "C8257 2", "C8257 3");
+
+
+end.

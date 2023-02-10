@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfWireObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <WireObject>
+    <WireName>C8257 locking</WireName>
+    <AdrOrIndex1>2822</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2823</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+  <WireObject>
+    <WireName>C8257 lever</WireName>
+    <AdrOrIndex1>2822</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2826</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+  <WireObject>
+    <WireName>C8257 cover</WireName>
+    <AdrOrIndex1>2827</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2828</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+  <WireObject>
+    <WireName>C8257 cover</WireName>
+    <AdrOrIndex1>2822</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2824</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+  <WireObject>
+    <WireName>C8257 cover</WireName>
+    <AdrOrIndex1>2822</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2825</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+  <WireObject>
+    <WireName>C8257 leak test</WireName>
+    <AdrOrIndex1>2829</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2830</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+  <WireObject>
+    <WireName>C8257 1/4</WireName>
+    <AdrOrIndex1>2818</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2821</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+  <WireObject>
+    <WireName>C8257 2/3</WireName>
+    <AdrOrIndex1>2819</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2820</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+</ArrayOfWireObject>

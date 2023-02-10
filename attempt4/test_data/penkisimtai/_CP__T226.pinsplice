@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<Dictionary>
+    <Item>
+        <Key>
+            <string>2097</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2098</string>
+                <string>2101</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2098</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2097</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2102</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2103</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2103</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2102</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2101</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2097</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2104</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2105</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2105</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2104</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+</Dictionary>

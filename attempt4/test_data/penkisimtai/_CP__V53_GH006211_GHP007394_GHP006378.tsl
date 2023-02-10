@@ -1,0 +1,29 @@
+/*  information
+    Housing         - 10425     (GH006211)  - 1865259
+    Cover           - 3377      (GHP007394) - 1507598
+    Cover           - P9396     (GHP006378) - 1471001
+*/
+
+
+UIMessage('V53 extras', TextColor='Blue', BackColor='White');
+UIMessage('information', TextColor='Gray', BackColor='White');
+UIMessage('Housing - 10425 (GH006211)  - 1865259', TextColor='Gray', BackColor='White');
+UIMessage('Cover - 3377 (GHP007394)  - 1507598', TextColor='Gray', BackColor='White');
+UIMessage('Cover - P9396 (GHP006378) - 1471001', TextColor='Gray', BackColor='White');
+UIMessage('');
+TestConnection('V53 locking', "V53 GND", "V53 LOCK");
+TestConnection('V53 lever', "V53 GND", "V53 LEVER" );
+ParamContinuity(Tmeas=500ms);
+TestConnection('V53 cover', "V53 COVER 1", "V53 COVER 2" );
+ParamResetContinuity();
+TestConnection('V53 cover', "V53 GND", "V53 COVER_LOW" );
+TestConnection('V53 cover', "V53 GND", "V53 COVER_HIGH" );
+TestConnection('V53 leak test', "V53 SEAL 1", "V53 SEAL 2");
+UIMessage('- - - - - - - - - - - - - - - - - - - -');
+
+
+TestConnection('V53 1/4', "V53 1", "V53 4");
+TestConnection('V53 2/3', "V53 2", "V53 3");
+
+
+end.

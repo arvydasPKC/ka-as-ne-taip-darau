@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<Dictionary>
+    <Item>
+        <Key>
+            <string>2750</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2751</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2751</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2750</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2746</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2747</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2747</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2746</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2748</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2749</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2749</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2748</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+</Dictionary>

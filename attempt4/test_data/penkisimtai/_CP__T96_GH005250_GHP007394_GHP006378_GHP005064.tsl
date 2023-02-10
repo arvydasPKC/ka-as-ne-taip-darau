@@ -1,0 +1,20 @@
+        UIMessage('T96 extras', TextColor='Blue', BackColor='White');
+        UIMessage('information', TextColor='Gray', BackColor='White');
+        UIMessage('Housing - S3554 (GH005250) - 1392811', TextColor='Gray', BackColor='White');
+        UIMessage('Adapter - 3377 (GHP007394)- 1507598', TextColor='Gray', BackColor='White');
+        UIMessage('');
+        UIMessagePanelMedia('', File= 'S:\TestData\NTG\IMAGES\HOUSINGS\GHP007394.jpg', Size= LARGE);
+        TestConnection('T96 adapter', "T96 ADAPTER_HI 1", "T96 ADAPTER_HI 2" );
+        TestConnection('T96 adapter', "T96 SLS 1", "T96 SLS 2" );
+        // TestConnection('T96 adapter', "T96 ADAPTER_LO 1", "T96 ADAPTER_LO 2" );
+        UIMessagePanelClose();
+        TestConnection('T96 leak test', "T96 SEAL 1", "T96 SEAL 2" );
+        UIMessage('- - - - - - - - - - - - - - - - - - - -');
+
+        TestConnection('T96 1/4', "T96 1", "T96 4");
+        TestConnection('T96 2/3', "T96 2", "T96 3");
+
+
+
+
+end.

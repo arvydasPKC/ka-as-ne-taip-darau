@@ -1,0 +1,21 @@
+/*  information
+    Housing         - 14076     (GH007326)  - 1912553
+    Adapter         - 13624     (GHP006703) - 1944092
+*/
+
+
+UIMessage('T226 extras', TextColor='Blue', BackColor='White');
+UIMessage('information', TextColor='Gray', BackColor='White');
+UIMessage('Housing - 14076 (GH007326) - 1912553', TextColor='Gray', BackColor='White');
+UIMessage('Adapter - 13624 (GHP006703) - 1944092', TextColor='Gray', BackColor='White');
+UIMessage('');
+TestConnection('T226 locking', "T226 GND", "T226 LOCK");
+// TestConnection('T226 adapter', "T226 GND", "T226 ADAPTER_BK" );
+// TestConnection('T226 adapter', "T226 GND", "T226 ADAPTER_YE" );
+TestConnection('T226 adapter', "T226 ADAPTER 1", "T226 ADAPTER 2" );
+TestConnection('T226 lever', "T226 GND", "T226 LEVER" );
+TestConnection('T226 leak test', "T226 SEAL 1", "T226 SEAL 2");
+UIMessage('- - - - - - - - - - - - - - - - - - - -');
+
+
+end.

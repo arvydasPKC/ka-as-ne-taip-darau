@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfWireObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <WireObject>
+    <WireName>U38 locking</WireName>
+    <AdrOrIndex1>2950</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2951</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+  <WireObject>
+    <WireName>U38 adapter</WireName>
+    <AdrOrIndex1>2950</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2952</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+  <WireObject>
+    <WireName>U38 lever</WireName>
+    <AdrOrIndex1>2950</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2953</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+  <WireObject>
+    <WireName>U38 sls</WireName>
+    <AdrOrIndex1>2954</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2955</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+  <WireObject>
+    <WireName>U38 seal</WireName>
+    <AdrOrIndex1>2956</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2957</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+  <WireObject>
+    <WireName>U38 1/4</WireName>
+    <AdrOrIndex1>2946</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2949</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+  <WireObject>
+    <WireName>U38 2/3</WireName>
+    <AdrOrIndex1>2947</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2948</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+</ArrayOfWireObject>

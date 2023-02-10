@@ -1,0 +1,50 @@
+/*	Brėžinio duomenys
+	"pavadinimas"
+	version
+*/
+
+CommandBlock( 'Connections' ) 
+{
+
+	StopwatchStart(); 
+//V54 MOODUL
+UIMessage( '2164113_S-' );
+
+TestConnection( 'SMS96', "V54 1", "E18.X3 7" );
+TestConnection( 'SMS97', "V54 4", "E18.X3 8" );
+TestConnection( 'SMS98', "V54 2", "E18.X3 16" );
+TestConnection( 'SMS99', "V54 3", "E18.X3 15" );
+
+//03.12.2015
+
+
+	// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	// Paskaičiuojamas ir parodomas testavimo laikas
+	_duration = StopwatchGet();  //Set variable 
+	_duration = _duration * 0.001; //Multiplication to show time in seconds 
+	_time = StrAdd(Str1= 'Testavimo laikas: ', Str2= _duration); 
+	UIMessage(_time, TextColor='Gainsboro', BackColor='White');
+
+	if ( _duration >= 40) // Tikrinamas testavimo laikas
+	{
+        UIMessageStop('Buvo viršytas testavimo laikas', Size=NORMAL, TextColor='Black', BackColor='Orange');
+		_counter = _counter + 1;	
+		FileWriteIni( File= 'C:\TMP\Module_times.txt', Section= 'Module', Key= _counter, Value= '2164113_S-');
+	}
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    UIMessage('+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +', TextColor='Gray', BackColor='White');
+    UIMessage('');
+}
+
+end.
+
+
+/*	Moduliui priklausantys jungties korpusai
+	"įrašyti"
+*/
+
+/*	Modulis sukurtas
+	"data"
+	"vardas pavarde"
+*/

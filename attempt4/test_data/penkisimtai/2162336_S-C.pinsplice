@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="windows-1257"?>
+<Dictionary>
+    <Item>
+        <Key>
+            <string>3</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>1915</string>
+                <string>3</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>1915</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>3</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>4</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2682</string>
+                <string>4</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2682</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>4</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>1916</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>:G13.H 1</string>
+                <string>1916</string>
+                <string>2683</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>:G13.H 1</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>1916</string>
+                <string>2683</string>
+                <string>:G13.H 1</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2683</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>:G13.H 1</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+</Dictionary>

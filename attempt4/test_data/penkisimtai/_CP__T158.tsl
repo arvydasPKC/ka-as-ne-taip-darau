@@ -1,0 +1,33 @@
+// connector verification program
+
+/*  information 
+	Housing             - 18673     (GH007510)  - 1912554
+	Adapter             - 13624     (GHP006703) - 1944092
+    Adapter             - 18310     (GHP006718) - 1894042
+*/
+
+
+UIMessage('T158 extras', TextColor='Blue', BackColor='White');
+UIMessage('information', TextColor='Gray', BackColor='White');
+UIMessage('Housing - 18673 (GH007510) - 1912554', TextColor='Gray', BackColor='White');
+UIMessage('Adapter - 13624 (GHP006703) - 1944092', TextColor='Gray', BackColor='White');
+UIMessage('Adapter - 18310 (GHP006718) - 1894042', TextColor='Gray', BackColor='White');
+UIMessage('');
+TestConnection('T158 locking', "T158 GND", "T158 LOCK");
+ParamContinuity(Tmeas=500ms);
+TestConnection('T158 lever', "T158 LEVER 1", "T158 LEVER 2");
+ParamResetContinuity();
+ParamContinuity(Tmeas=500ms);
+TestConnection('T158 adapter', "T158 ADAPTER_STR 1", "T158 ADAPTER_STR 2");
+ParamResetContinuity();
+TestConnection('T158 adapter', "T158 GND", "T158 ADAPTER_YE");
+TestConnection('T158 adapter', "T158 GND", "T158 ADAPTER_BK");
+TestConnection('T158 leak test', "T158 SEAL 1", "T158 SEAL 2");
+UIMessage('- - - - - - - - - - - - - - - - - - - -');
+        
+        
+TestConnection('T158 1/2', "T158 1", "T158 2");
+TestConnection('T158 2/3', "T158 2", "T158 3");
+
+
+end.

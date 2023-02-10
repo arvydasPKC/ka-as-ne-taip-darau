@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<Dictionary>
+    <Item>
+        <Key>
+            <string>2950</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2951</string>
+                <string>2952</string>
+                <string>2953</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2951</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2950</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2952</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2950</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2953</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2950</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2954</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2955</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2955</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2954</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2956</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2957</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2957</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2956</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2946</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2949</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2949</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2946</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2947</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2948</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+    <Item>
+        <Key>
+            <string>2948</string>
+        </Key>
+        <Value>
+            <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <string>2947</string>
+            </ArrayOfString>
+        </Value>
+    </Item>
+</Dictionary>

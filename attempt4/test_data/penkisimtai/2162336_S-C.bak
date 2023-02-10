@@ -1,0 +1,59 @@
+/*	Brėžinio duomenys
+	"pavadinimas"
+	version
+*/
+
+CommandBlock( 'Connections' ) 
+{
+
+	StopwatchStart(); 
+// previousversion S-A
+UIMessage('2162336_S-C');
+//TestConnection('FCS9', "C101 2", "M32 1");
+//TestConnection('FCS10', ":G13.H 1", "M32 2");
+//TestConnection('FCS11', "C101 3", "M37 1");
+//TestConnection('FCS12', ":G13.H 1", "M37 2");
+//TestConnection('FCS13', "T139 1", "C101 15");
+//TestConnection('FCS14', "T139 2", "C101 68");
+
+ParamContinuity( R= 30Ohm, I= 100mA, Twait= 0ms, Tmeas= 1ms );
+TestProbe('Probe FCS9 M32:1 >>> C101:2', "C101 2");
+TestProbe('Probe FCS10 M32:2 >>> :G13.H', ":G13.H 1");
+TestProbe('Probe FCS11 M37:1 >>> C101:3', "C101 3");
+TestProbe('Probe FCS12 M37:2 >>> :G13.H', ":G13.H 1");
+TestProbe('Probe FCS13 T139:1 >>> C101:15', "C101 15");
+TestProbe('Probe FCS14 T139:2 >>> C101:68', "C101 68");
+ParamResetContinuity();
+
+
+
+	// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	// Paskaičiuojamas ir parodomas testavimo laikas
+	_duration = StopwatchGet();  //Set variable 
+	_duration = _duration * 0.001; //Multiplication to show time in seconds 
+	_time = StrAdd(Str1= 'Testavimo laikas: ', Str2= _duration); 
+	UIMessage(_time, TextColor='Gainsboro', BackColor='White');
+
+	if ( _duration >= 20) // Tikrinamas testavimo laikas
+	{
+        UIMessageStop('Buvo viršytas testavimo laikas', Size=NORMAL, TextColor='Black', BackColor='Orange');
+		_counter = _counter + 1;	
+		FileWriteIni( File= 'C:\TMP\Module_times.txt', Section= 'Module', Key= _counter, Value= '2162336_S-C');
+	}
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    UIMessage('+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +', TextColor='Gray', BackColor='White');
+    UIMessage('');
+}
+
+end.
+
+
+/*	Moduliui priklausantys jungties korpusai
+	"įrašyti"
+*/
+
+/*	Modulis sukurtas
+	"data"
+	"vardas pavarde"
+*/

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfWireObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <WireObject>
+    <WireName>SMS94</WireName>
+    <AdrOrIndex1>499</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>197</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+  <WireObject>
+    <WireName>SMS93</WireName>
+    <AdrOrIndex1>498</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>198</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+  <WireObject>
+    <WireName>SMS95</WireName>
+    <AdrOrIndex1>500</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>205</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+</ArrayOfWireObject>

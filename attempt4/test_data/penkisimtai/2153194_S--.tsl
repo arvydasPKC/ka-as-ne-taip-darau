@@ -1,0 +1,65 @@
+/*	Brėžinio duomenys
+	Spiral cable EBS
+	version S--
+*/
+
+CommandBlock( 'Connections' ) 
+{
+
+	StopwatchStart();
+
+	UIMessage('2153194_S--', TextColor='Black', BackColor='Yellow');
+	
+	    //  ---     Tikrinamas ar tinkamas modulis     ----------------------------------
+
+    UIMessage('Skenuojamas 2153194_S-- modulis');
+    _MODULE = '2153194';
+    _MESSAGE = StrAdd(Str1= 'Nuskenuokite modulį ', Str2= _MODULE);
+    // Get user input
+    _BARCODE = UIMessageSetVariable(_MESSAGE, Size=LARGE, AllowAbort= ON, HideCharacters= OFF, Tout= 0s);
+    // Get last 7 digits of scanned barcode
+    _BARCODE_END = StrCopy( Str= _BARCODE, Pos= 10, Count= 7);
+    // Check if barcode match
+    _ISOK = StrCompare(Str1= _BARCODE_END, Str2= _MODULE);
+            
+    while(_ISOK != 0)
+    {
+        UIMessageStop('Įdėtas netinkamas modulis.<BR>Skenuokite iš naujo', Size=LARGE, TextColor='Black', BackColor='Red' );
+        _BARCODE = UIMessageSetVariable(_MESSAGE, Size=LARGE, AllowAbort= ON, HideCharacters= OFF, Tout= 0s);
+        _BARCODE_END = StrCopy( Str= _BARCODE, Pos= 10, Count= 7);
+        _ISOK = StrCompare(Str1= _BARCODE_END, Str2= _MODULE);
+    }
+    UIMessage('Modulis tinkamas', TextColor='White', BackColor='Green'); 
+
+    //  -----------------------------------------------------------------------------
+
+
+	// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	// Paskaičiuojamas ir parodomas testavimo laikas
+	_duration = StopwatchGet();  //Set variable 
+	_duration = _duration * 0.001; //Multiplication to show time in seconds 
+	_time = StrAdd(Str1= 'Testavimo laikas: ', Str2= _duration); 
+	UIMessage(_time, TextColor='Gainsboro', BackColor='White');
+
+	if ( _duration >= 40) // Tikrinamas testavimo laikas
+	{
+        UIMessageStop('Buvo viršytas testavimo laikas', Size=NORMAL, TextColor='Black', BackColor='Orange');
+		_counter = _counter + 1;	
+		FileWriteIni( File= 'C:\TMP\Module_times.txt', Section= 'Module', Key= _counter, Value= '2153194_S--');
+	}
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    UIMessage('+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +', TextColor='Gray', BackColor='White');
+    UIMessage('');
+}
+
+end.
+
+/*	Moduliui priklausantys jungties korpusai
+	-
+*/
+
+/*	Modulis sukurtas
+	2020.02.06
+	Mindaugas
+*/

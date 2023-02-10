@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfWireObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <WireObject>
+    <WireName>T115 locking</WireName>
+    <AdrOrIndex1>2850</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2851</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+  <WireObject>
+    <WireName>T115 lever</WireName>
+    <AdrOrIndex1>2850</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2854</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+  <WireObject>
+    <WireName>T115 adapter BK</WireName>
+    <AdrOrIndex1>2850</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2853</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+  <WireObject>
+    <WireName>T115 adapter YE</WireName>
+    <AdrOrIndex1>2850</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2852</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+  <WireObject>
+    <WireName>T115 adapter sls</WireName>
+    <AdrOrIndex1>2855</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2856</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+  <WireObject>
+    <WireName>T115 leak test</WireName>
+    <AdrOrIndex1>2857</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2858</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+  <WireObject>
+    <WireName>T115 1/2</WireName>
+    <AdrOrIndex1>2846</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2847</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+  <WireObject>
+    <WireName>T115 3/4</WireName>
+    <AdrOrIndex1>2848</AdrOrIndex1>
+    <IsSplice1>false</IsSplice1>
+    <AdrOrIndex2>2849</AdrOrIndex2>
+    <IsSplice2>false</IsSplice2>
+  </WireObject>
+</ArrayOfWireObject>

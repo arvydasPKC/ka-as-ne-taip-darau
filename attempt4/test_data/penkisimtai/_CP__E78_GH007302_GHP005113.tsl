@@ -1,0 +1,26 @@
+  //  ==========|     E78 1923724    |==========================================================
+/*  information
+
+	HOUSING  11766  GH007302  1923724
+	ADAPTER  13845  GHP005113 1894041
+*/
+        UIMessage('E78 extras', TextColor='Blue', BackColor='White');
+		UIMessage('information', TextColor='Gray', BackColor='White');
+        UIMessage('Housing - 11766 (GH007302) - 1923724', TextColor='Gray', BackColor='White');
+        UIMessage('Adapter - 13845 (GHP005113) - 1894041', TextColor='Gray', BackColor='White');
+        UIMessage('');
+        TestConnection('E78 Locking', "E78 GND", "E78 LOCK");
+        TestConnection('E78 Lever', "E78 GND", "E78 LEVER");
+        TestConnection('E78 Sls', "E78 SLS 1", "E78 SLS 2");
+		TestConnection('E78 Adapter_BK', "E78 GND", "E78 ADAPTER_BK");
+		TestConnection('E78 Adapter_YE', "E78 GND", "E78 ADAPTER_YE");
+		TestConnection('E78 Seal', "E78 SEAL 1", "E78 SEAL 2");
+        UIMessage('- - - - - - - - - - - - - - - - - - - -');
+        TestConnection('E78 1/8', "E78 1", "E78 8");
+        TestConnection('E78 2/7', "E78 2", "E78 7");
+        TestConnection('E78 3/6', "E78 3", "E78 6");
+        TestConnection('E78 4/5', "E78 4", "E78 5");
+
+
+
+end.

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IvisionStudioProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AssemblyName>IvisionStudio</AssemblyName>
+  <AssemblyVersion Major="2" Minor="0" Build="8" Revision="0" />
+  <Created>2016-02-25T11:25:33.6875+02:00</Created>
+  <Created_by>NCGTest</Created_by>
+  <Description />
+  <IsHwMatrixConfigurationDefault>true</IsHwMatrixConfigurationDefault>
+  <LastChanged>2016-02-25T11:25:33.6875+02:00</LastChanged>
+  <LastChanged_by>NCGTest</LastChanged_by>
+  <PinRange>2688</PinRange>
+  <PinRangeConnector>51</PinRangeConnector>.
+  <ProjectName>2160219_S-</ProjectName>
+  <PinRangeConnector>77777777777777777</PinRangeConnector>.
+  <TestDeskModuleSupport>false</TestDeskModuleSupport>
+</IvisionStudioProject>

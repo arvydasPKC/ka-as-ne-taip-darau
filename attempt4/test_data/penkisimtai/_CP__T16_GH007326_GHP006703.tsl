@@ -1,0 +1,26 @@
+/*  information
+    Housing         - 14076     (GH007326)  - 1912553
+    Adapter  		- 13624     (GHP006703) - 1944092
+*/
+
+
+UIMessage('T16 extras', TextColor='Blue', BackColor='White');
+UIMessage('information', TextColor='Gray', BackColor='White');
+UIMessage('Housing - 14076 (GH007326) - 1912553', TextColor='Gray', BackColor='White');
+UIMessage('Adapter - 13624 (GHP006703) - 1944092', TextColor='Gray', BackColor='White');
+UIMessage('');
+TestConnection('T16 locking', "T16_2 GND", "T16_2 LOCK");
+TestConnection('T16 lever', "T16_2 GND", "T16_2 LEVER");
+ParamContinuity(Tmeas=500ms);
+TestConnection('T16 adapter', "T16_2 ADAPTER 1", "T16_2 ADAPTER 2");
+ParamResetContinuity();
+TestConnection('T16 adapter', "T16_2 GND", "T16_2 ADAPTER_YE");
+TestConnection('T16 adapter', "T16_2 GND", "T16_2 ADAPTER_BK");
+TestConnection('T16 leak test', "T16_2 SEAL 1", "T16_2 SEAL 2");
+UIMessage('- - - - - - - - - - - - - - - - - - - -');
+
+
+TestConnection('T16 1/2', "T16 1", "T16 2");
+
+
+end.

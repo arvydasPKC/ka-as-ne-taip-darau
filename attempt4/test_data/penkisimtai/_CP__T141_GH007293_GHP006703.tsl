@@ -1,0 +1,33 @@
+// connector verification program
+
+/*  information 
+	Housing         - 13808     (GH007293)  - 1893046
+	Adapter         - 13624     (GHP006703) - 1944092
+    Adapter         - 18310     (GHP006718) - 1894042
+*/
+
+
+UIMessage('T141 extras', TextColor='Blue', BackColor='White');
+UIMessage('information', TextColor='Gray', BackColor='White');
+UIMessage('Housing - 13808 (GH007293) - 1893046', TextColor='Gray', BackColor='White');
+UIMessage('Adapter - 13624 (GHP006703) - 1944092', TextColor='Gray', BackColor='White');
+UIMessage('Adapter - 18310 (GHP006718) - 1894042', TextColor='Gray', BackColor='White');
+UIMessage('');
+TestConnection('T141 locking', "T141 GND", "T141 LOCK");
+ParamContinuity(Tmeas=500ms);
+TestConnection('T141 lever', "T141 LEVER 1", "T141 LEVER 2");
+ParamResetContinuity();
+ParamContinuity(Tmeas=500ms);
+TestConnection('T141 adapter', "T141 ADAPTER_STR 1", "T141 ADAPTER_STR 2");
+ParamResetContinuity();
+TestConnection('T141 adapter', "T141 GND", "T141 ADAPTER_YE");
+TestConnection('T141 adapter', "T141 GND", "T141 ADAPTER_BK");
+TestConnection('T141 leak test', "T141 SEAL 1", "T141 SEAL 2");
+UIMessage('- - - - - - - - - - - - - - - - - - - -');
+  
+
+TestConnection('T141 1/2', "T141 1", "T141 2");
+TestConnection('T141 2/3', "T141 2", "T141 3");
+
+
+end.

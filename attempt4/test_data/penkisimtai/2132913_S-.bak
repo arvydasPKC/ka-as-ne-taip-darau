@@ -1,0 +1,47 @@
+/*	Brėžinio duomenys
+	"pavadinimas"
+	version
+*/
+
+CommandBlock( 'Connections' ) 
+{
+
+	StopwatchStart(); 
+UIMessage( '2132913_S-' );
+
+TestConnection( 'AHS29', "V41 1", "C101 11" );
+TestConnection( 'AHS25', "V41 2", "C101 10" );
+
+// 06.01.16
+
+
+	// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	// Paskaičiuojamas ir parodomas testavimo laikas
+	_duration = StopwatchGet();  //Set variable 
+	_duration = _duration * 0.001; //Multiplication to show time in seconds 
+	_time = StrAdd(Str1= 'Testavimo laikas: ', Str2= _duration); 
+	UIMessage(_time, TextColor='Gainsboro', BackColor='White');
+
+	if ( _duration >= 20) // Tikrinamas testavimo laikas
+	{
+        UIMessageStop('Buvo viršytas testavimo laikas', Size=NORMAL, TextColor='Black', BackColor='Orange');
+		_counter = _counter + 1;	
+		FileWriteIni( File= 'C:\TMP\Module_times.txt', Section= 'Module', Key= _counter, Value= '2132913_S-');
+	}
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    UIMessage('+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +', TextColor='Gray', BackColor='White');
+    UIMessage('');
+}
+
+end.
+
+
+/*	Moduliui priklausantys jungties korpusai
+	"įrašyti"
+*/
+
+/*	Modulis sukurtas
+	"data"
+	"vardas pavarde"
+*/

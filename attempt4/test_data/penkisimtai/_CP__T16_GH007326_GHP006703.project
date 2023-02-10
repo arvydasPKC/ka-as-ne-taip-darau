@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IvisionStudioProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AdapterPintableEnabled>false</AdapterPintableEnabled>
+  <AssemblyName>IvisionStudio</AssemblyName>
+  <AssemblyVersion Major="2" Minor="4" Build="2" Revision="0" />
+  <Created>2021-06-30T09:59:58.9397811+03:00</Created>
+  <Created_by>aivja</Created_by>
+  <Description>connector T16 (GH007326 + GHP006703)</Description>
+  <ForceRecompile>false</ForceRecompile>
+  <HwMatrixConfigurationName>WK260_Default</HwMatrixConfigurationName>
+  <IsHwMatrixConfigurationDefault>true</IsHwMatrixConfigurationDefault>
+  <LastChanged>2021-06-30T09:59:58.9397811+03:00</LastChanged>
+  <LastChanged_by>aivja</LastChanged_by>
+  <PinRangeConnector>77777777777777777</PinRangeConnector>.
+  <PinRangeConnector>51</PinRangeConnector>
+  <ProjectName>_CP__T16_GH007326_GHP006703</ProjectName>
+  <TargetProfileId>WK260_PC</TargetProfileId>
+  <TestDeskModuleSupport>false</TestDeskModuleSupport>
+</IvisionStudioProject>

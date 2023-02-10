@@ -1,0 +1,22 @@
+//  ==========|     U38     |===========================================================
+/*  information
+    Housing         - 10425     (GH006211)  - 1865259
+	Adapter         - 3376      (GHP007406) - 1507596
+*/
+    
+        UIMessage('U38 extras', TextColor='Blue', BackColor='White');
+        UIMessage('information', TextColor='Gray', BackColor='White');
+        UIMessage('Housing - 10425 (GH006211) - 1865259', TextColor='Gray', BackColor='White');
+        UIMessage('Adapter - 3376 (GHP007406) - 1507596', TextColor='Gray', BackColor='White');    
+        UIMessage('');
+        TestConnection('U38 locking', "U38 GND", "U38 LOCK" );
+        TestConnection('U38 adapter', "U38 GND", "U38 ADAPTER" );
+        TestConnection('U38 lever', "U38 GND", "U38 LEVER" );
+        TestConnection('U38 sls', "U38 SLS 1", "U38 SLS 2" );
+        TestConnection('U38 seal', "U38 SEAL 1", "U38 SEAL 2" );
+        UIMessage('- - - - - - - - - - - - - - - - - - - -');
+        
+        TestConnection('U38 1/4', "U38 1", "U38 4");
+        TestConnection('U38 2/3', "U38 2", "U38 3");
+        
+        end.

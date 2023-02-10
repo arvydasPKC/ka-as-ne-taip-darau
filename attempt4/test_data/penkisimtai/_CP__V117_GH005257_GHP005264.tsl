@@ -1,0 +1,26 @@
+// connector verification program
+
+/*  information
+    Housing         - 11728     (GH005257)  - 2020285
+	Adapter         - P8720     (GHP005264) - 1471002
+*/
+
+
+UIMessage('V117 extras', TextColor='Blue', BackColor='White');
+UIMessage('information', TextColor='Gray', BackColor='White');
+UIMessage('Housing - 11728 (GH005257) - 2020285', TextColor='Gray', BackColor='White');
+UIMessage('Adapter - P8720 (GHP005264) - 1471002', TextColor='Gray', BackColor='White');
+UIMessage('');
+TestConnection('V117 locking', "V117 GND", "V117 LOCK");
+TestConnection('V117 lever',   "V117 GND", "V117 LEVER");
+TestConnection('V117 adapter sls', "V117 ADAPTER 1", "V117 ADAPTER 2");
+TestConnection('V117 adapter', "V117 GND", "V117 ADAPTER");
+TestConnection('V117 leak test', "V117 SEAL 1", "V117 SEAL 2");
+UIMessage('- - - - - - - - - - - - - - - - - - - -');
+
+TestConnection('V117 1/4', "V117 1", "V117 4");
+TestConnection('V117 2/5', "V117 2", "V117 5");
+TestConnection('V117 3/6', "V117 3", "V117 6");
+
+
+END.

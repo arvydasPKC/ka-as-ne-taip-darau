@@ -1,0 +1,19 @@
+/*  information
+    Housing         - T3141     (GH007914)  - 1528286
+	Locking         - S5023     (GHP007742) - 1529440
+*/
+
+UIMessage('C30.P extras', TextColor='Blue', BackColor='White');
+UIMessage('information', TextColor='Gray', BackColor='White');
+UIMessage('Housing - T3141 (GH007914) - 1528286', TextColor='Gray', BackColor='White');
+UIMessage('Locking - S5023 (GHP007742) - 1529440', TextColor='Gray', BackColor='White');
+UIMessage('');
+TestConnection('C30.P leak test', "C30.P SEAL 1", "C30.P SEAL 2");
+UIMessage('- - - - - - - - - - - - - - - - - - - -');
+
+
+TestConnection('C30.P 1/2', "C30.P 1", "C30.P 2");
+TestConnection('C30.P 3/4', "C30.P 3", "C30.P 4");
+
+
+end.

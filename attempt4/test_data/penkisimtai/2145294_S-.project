@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IvisionStudioProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Created>2016-02-25T11:25:33.53125+02:00</Created>
+  <Created_by>NCGTest</Created_by>
+  <Description />
+  <LastChanged>2016-02-25T11:25:33.53125+02:00</LastChanged>
+  <LastChanged_by>NCGTest</LastChanged_by>
+  <PinRange>2688</PinRange>
+  <PinRangeConnector>51</PinRangeConnector>.
+  <ProjectName>2145294_S-</ProjectName>
+  <TargetProfileId>WK260_PC</TargetProfileId>
+  <TestDeskModuleSupport>false</TestDeskModuleSupport>
+  <Assemblyversion Major="1" Minor="3" Build="8" Revision="0" />
+  <PinRangeConnector>77777777777777777</PinRangeConnector>.
+</IvisionStudioProject>

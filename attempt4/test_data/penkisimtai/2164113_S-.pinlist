@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUnsignedShort xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <unsignedShort>200</unsignedShort>
+  <unsignedShort>201</unsignedShort>
+  <unsignedShort>208</unsignedShort>
+  <unsignedShort>209</unsignedShort>
+  <unsignedShort>372</unsignedShort>
+  <unsignedShort>373</unsignedShort>
+  <unsignedShort>374</unsignedShort>
+  <unsignedShort>375</unsignedShort>
+</ArrayOfUnsignedShort>

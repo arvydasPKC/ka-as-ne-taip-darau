@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfIvisionError xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IvisionError>
+    <Description>Pin "E78 GND" not found</Description>
+    <Level>Error</Level>
+    <FirstPosition>
+      <DisplayLine>12</DisplayLine>
+      <DisplayCharacter>39</DisplayCharacter>
+    </FirstPosition>
+    <EndPosition>
+      <DisplayLine>12</DisplayLine>
+      <DisplayCharacter>48</DisplayCharacter>
+    </EndPosition>
+    <ErrorType>PinNotFound</ErrorType>
+    <ModuleInfo>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</ModuleInfo>
+    <TestPoint>E78 GND</TestPoint>
+    <PinAddress>0</PinAddress>
+    <TslFilename>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</TslFilename>
+    <TslCode>"E78 GND"</TslCode>
+  </IvisionError>
+  <IvisionError>
+    <Description>Pin "E78 LOCK" not found</Description>
+    <Level>Error</Level>
+    <FirstPosition>
+      <DisplayLine>12</DisplayLine>
+      <DisplayCharacter>50</DisplayCharacter>
+    </FirstPosition>
+    <EndPosition>
+      <DisplayLine>12</DisplayLine>
+      <DisplayCharacter>60</DisplayCharacter>
+    </EndPosition>
+    <ErrorType>PinNotFound</ErrorType>
+    <ModuleInfo>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</ModuleInfo>
+    <TestPoint>E78 LOCK</TestPoint>
+    <PinAddress>0</PinAddress>
+    <TslFilename>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</TslFilename>
+    <TslCode>"E78 LOCK"</TslCode>
+  </IvisionError>
+  <IvisionError>
+    <Description>Pin "E78 GND" not found</Description>
+    <Level>Error</Level>
+    <FirstPosition>
+      <DisplayLine>13</DisplayLine>
+      <DisplayCharacter>37</DisplayCharacter>
+    </FirstPosition>
+    <EndPosition>
+      <DisplayLine>13</DisplayLine>
+      <DisplayCharacter>46</DisplayCharacter>
+    </EndPosition>
+    <ErrorType>PinNotFound</ErrorType>
+    <ModuleInfo>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</ModuleInfo>
+    <TestPoint>E78 GND</TestPoint>
+    <PinAddress>0</PinAddress>
+    <TslFilename>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</TslFilename>
+    <TslCode>"E78 GND"</TslCode>
+  </IvisionError>
+  <IvisionError>
+    <Description>Pin "E78 LEVER" not found</Description>
+    <Level>Error</Level>
+    <FirstPosition>
+      <DisplayLine>13</DisplayLine>
+      <DisplayCharacter>48</DisplayCharacter>
+    </FirstPosition>
+    <EndPosition>
+      <DisplayLine>13</DisplayLine>
+      <DisplayCharacter>59</DisplayCharacter>
+    </EndPosition>
+    <ErrorType>PinNotFound</ErrorType>
+    <ModuleInfo>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</ModuleInfo>
+    <TestPoint>E78 LEVER</TestPoint>
+    <PinAddress>0</PinAddress>
+    <TslFilename>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</TslFilename>
+    <TslCode>"E78 LEVER"</TslCode>
+  </IvisionError>
+  <IvisionError>
+    <Description>Pin "E78 SLS 1" not found</Description>
+    <Level>Error</Level>
+    <FirstPosition>
+      <DisplayLine>14</DisplayLine>
+      <DisplayCharacter>35</DisplayCharacter>
+    </FirstPosition>
+    <EndPosition>
+      <DisplayLine>14</DisplayLine>
+      <DisplayCharacter>46</DisplayCharacter>
+    </EndPosition>
+    <ErrorType>PinNotFound</ErrorType>
+    <ModuleInfo>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</ModuleInfo>
+    <TestPoint>E78 SLS 1</TestPoint>
+    <PinAddress>0</PinAddress>
+    <TslFilename>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</TslFilename>
+    <TslCode>"E78 SLS 1"</TslCode>
+  </IvisionError>
+  <IvisionError>
+    <Description>Pin "E78 SLS 2" not found</Description>
+    <Level>Error</Level>
+    <FirstPosition>
+      <DisplayLine>14</DisplayLine>
+      <DisplayCharacter>48</DisplayCharacter>
+    </FirstPosition>
+    <EndPosition>
+      <DisplayLine>14</DisplayLine>
+      <DisplayCharacter>59</DisplayCharacter>
+    </EndPosition>
+    <ErrorType>PinNotFound</ErrorType>
+    <ModuleInfo>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</ModuleInfo>
+    <TestPoint>E78 SLS 2</TestPoint>
+    <PinAddress>0</PinAddress>
+    <TslFilename>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</TslFilename>
+    <TslCode>"E78 SLS 2"</TslCode>
+  </IvisionError>
+  <IvisionError>
+    <Description>Pin "E78 GND" not found</Description>
+    <Level>Error</Level>
+    <FirstPosition>
+      <DisplayLine>15</DisplayLine>
+      <DisplayCharacter>36</DisplayCharacter>
+    </FirstPosition>
+    <EndPosition>
+      <DisplayLine>15</DisplayLine>
+      <DisplayCharacter>45</DisplayCharacter>
+    </EndPosition>
+    <ErrorType>PinNotFound</ErrorType>
+    <ModuleInfo>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</ModuleInfo>
+    <TestPoint>E78 GND</TestPoint>
+    <PinAddress>0</PinAddress>
+    <TslFilename>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</TslFilename>
+    <TslCode>"E78 GND"</TslCode>
+  </IvisionError>
+  <IvisionError>
+    <Description>Pin "E78 ADAPTER_BK" not found</Description>
+    <Level>Error</Level>
+    <FirstPosition>
+      <DisplayLine>15</DisplayLine>
+      <DisplayCharacter>47</DisplayCharacter>
+    </FirstPosition>
+    <EndPosition>
+      <DisplayLine>15</DisplayLine>
+      <DisplayCharacter>63</DisplayCharacter>
+    </EndPosition>
+    <ErrorType>PinNotFound</ErrorType>
+    <ModuleInfo>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</ModuleInfo>
+    <TestPoint>E78 ADAPTER_BK</TestPoint>
+    <PinAddress>0</PinAddress>
+    <TslFilename>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</TslFilename>
+    <TslCode>"E78 ADAPTER_BK"</TslCode>
+  </IvisionError>
+  <IvisionError>
+    <Description>Pin "E78 GND" not found</Description>
+    <Level>Error</Level>
+    <FirstPosition>
+      <DisplayLine>16</DisplayLine>
+      <DisplayCharacter>36</DisplayCharacter>
+    </FirstPosition>
+    <EndPosition>
+      <DisplayLine>16</DisplayLine>
+      <DisplayCharacter>45</DisplayCharacter>
+    </EndPosition>
+    <ErrorType>PinNotFound</ErrorType>
+    <ModuleInfo>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</ModuleInfo>
+    <TestPoint>E78 GND</TestPoint>
+    <PinAddress>0</PinAddress>
+    <TslFilename>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</TslFilename>
+    <TslCode>"E78 GND"</TslCode>
+  </IvisionError>
+  <IvisionError>
+    <Description>Pin "E78 ADAPTER_YE" not found</Description>
+    <Level>Error</Level>
+    <FirstPosition>
+      <DisplayLine>16</DisplayLine>
+      <DisplayCharacter>47</DisplayCharacter>
+    </FirstPosition>
+    <EndPosition>
+      <DisplayLine>16</DisplayLine>
+      <DisplayCharacter>63</DisplayCharacter>
+    </EndPosition>
+    <ErrorType>PinNotFound</ErrorType>
+    <ModuleInfo>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</ModuleInfo>
+    <TestPoint>E78 ADAPTER_YE</TestPoint>
+    <PinAddress>0</PinAddress>
+    <TslFilename>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</TslFilename>
+    <TslCode>"E78 ADAPTER_YE"</TslCode>
+  </IvisionError>
+  <IvisionError>
+    <Description>Pin "E78 SEAL 1" not found</Description>
+    <Level>Error</Level>
+    <FirstPosition>
+      <DisplayLine>17</DisplayLine>
+      <DisplayCharacter>30</DisplayCharacter>
+    </FirstPosition>
+    <EndPosition>
+      <DisplayLine>17</DisplayLine>
+      <DisplayCharacter>42</DisplayCharacter>
+    </EndPosition>
+    <ErrorType>PinNotFound</ErrorType>
+    <ModuleInfo>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</ModuleInfo>
+    <TestPoint>E78 SEAL 1</TestPoint>
+    <PinAddress>0</PinAddress>
+    <TslFilename>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</TslFilename>
+    <TslCode>"E78 SEAL 1"</TslCode>
+  </IvisionError>
+  <IvisionError>
+    <Description>Pin "E78 SEAL 2" not found</Description>
+    <Level>Error</Level>
+    <FirstPosition>
+      <DisplayLine>17</DisplayLine>
+      <DisplayCharacter>44</DisplayCharacter>
+    </FirstPosition>
+    <EndPosition>
+      <DisplayLine>17</DisplayLine>
+      <DisplayCharacter>56</DisplayCharacter>
+    </EndPosition>
+    <ErrorType>PinNotFound</ErrorType>
+    <ModuleInfo>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</ModuleInfo>
+    <TestPoint>E78 SEAL 2</TestPoint>
+    <PinAddress>0</PinAddress>
+    <TslFilename>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__E78_GH007302_GHP005113.tsl</TslFilename>
+    <TslCode>"E78 SEAL 2"</TslCode>
+  </IvisionError>
+</ArrayOfIvisionError>

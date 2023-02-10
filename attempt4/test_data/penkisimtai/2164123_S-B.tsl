@@ -1,0 +1,67 @@
+/*	Brėžinio duomenys
+	"pavadinimas"
+	version
+*/
+
+CommandBlock( 'Connections' ) 
+{
+
+	StopwatchStart(); 
+// Tab Dwg Cable h SMS S Valve V55 Frame
+// version   S-B
+
+UIMessage( '2164123_S-B', TextColor='Black', BackColor='Yellow');
+
+/*  -   P A S T A B O S   - - - - - - - - - - - - - - - - - -
+    ATKREIPKITE DĖMESĮ !!
+    Namelis E18.X4 yra Common'inis,
+    todėl VISADA reikia įvesti į LOCKING'ų failą
+    (ir pažymėtus punktyrais)
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+*/
+
+
+TestConnection('RD SMS111', "V55 1", "E18.X4 7");
+TestConnection('GY SMS113', "V55 2", "E18.X4 16");
+TestConnection('BU SMS114', "V55 3", "E18.X4 15");
+TestConnection('BK SMS112', "V55 4", "E18.X4 8");
+
+
+
+/* Moduliui priklausantys nameliai:
+   V55
+   E18.X4	- priklauso Common'ui
+*/
+
+// A.J.   2018.10.03
+
+	// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	// Paskaičiuojamas ir parodomas testavimo laikas
+	_duration = StopwatchGet();  //Set variable 
+	_duration = _duration * 0.001; //Multiplication to show time in seconds 
+	_time = StrAdd(Str1= 'Testavimo laikas: ', Str2= _duration); 
+	UIMessage(_time, TextColor='Gainsboro', BackColor='White');
+
+	if ( _duration >= 40) // Tikrinamas testavimo laikas
+	{
+        UIMessageStop('Buvo viršytas testavimo laikas', Size=NORMAL, TextColor='Black', BackColor='Orange');
+		_counter = _counter + 1;	
+		FileWriteIni( File= 'C:\TMP\Module_times.txt', Section= 'Module', Key= _counter, Value= '2164123_S-B');
+	}
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    UIMessage('+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +', TextColor='Gray', BackColor='White');
+    UIMessage('');
+}
+
+end.
+
+
+/*	Moduliui priklausantys jungties korpusai
+	"įrašyti"
+*/
+
+/*	Modulis sukurtas
+	"data"
+	"vardas pavarde"
+*/

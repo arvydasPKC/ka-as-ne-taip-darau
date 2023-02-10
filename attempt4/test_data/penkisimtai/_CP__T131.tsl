@@ -1,0 +1,33 @@
+// connector verification program
+
+/*  information
+    Housing         - 18592     (GH007316)  - 1929902
+    Adapter         - 3376      (GHP007406) - 1507596
+    Adapter         - 3377      (GHP007394) - 1507598
+    Adapter         - P9396     (GHP006378) - 1471001
+*/
+
+
+UIMessage('T131 extras', TextColor='Blue', BackColor='White');
+UIMessage('information', TextColor='Gray', BackColor='White');
+UIMessage('Housing - 18592 (GH007316) - 1929902', TextColor='Gray', BackColor='White');
+UIMessage('Adapter - 3376 (GHP007406) - 1507596', TextColor='Gray', BackColor='White');
+UIMessage('Adapter - 3377 (GHP007394) - 1507598', TextColor='Gray', BackColor='White');
+UIMessage('Adapter - P9396 (GHP006378) - 1471001', TextColor='Gray', BackColor='White');
+UIMessage('');
+TestConnection('T131 locking', "T131 GND", "T131 LOCK");
+TestConnection('T131 lever', "T131 GND", "T131 LEVER");
+ParamContinuity(Tmeas=500ms);
+TestConnection('T131 adapter', "T131 ADAPTER 1", "T131 ADAPTER 2");
+ParamResetContinuity();
+TestConnection('T131 adapter', "T131 GND", "T131 ADAPTER_BK");
+TestConnection('T131 adapter', "T131 GND", "T131 ADAPTER_YE");
+TestConnection('T131 leak test', "T131 SEAL 1", "T131 SEAL 2");
+UIMessage('- - - - - - - - - - - - - - - - - - - -');
+
+
+TestConnection('T131 1/4', "T131 1", "T131 4");
+TestConnection('T131 2/3', "T131 2", "T131 3");
+
+
+end.

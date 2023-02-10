@@ -1,0 +1,15 @@
+/*  information
+     Terminal - N3228 (GT014202)  - 1947067
+     Rubber Shelter  - (GR014352)
+*/
+
+
+UIMessage('M53.B Extras', TextColor='Blue', BackColor='White');
+UIMessage('information', TextColor='Gray', BackColor='White');
+UIMessage('Terminal - N3228 (GT014202)  - 1947067', TextColor='Gray', BackColor='White');
+UIMessage('Rubber Shelter  - (GR014352)', TextColor='Gray', BackColor='White');
+TestConnection( 'M53.B rubber', "M53.B RUBBER 1", "M53.B RUBBER 2");
+UIMessage('- - - - - - - - - - - - - - - - - - - -');
+
+
+end.

@@ -1,0 +1,41 @@
+// connector verification program
+
+/*  information 
+	Housing             - 14132     (GH007328)  - 2161878
+	Adapter             - 18679     (GHP006574) - 1907618
+    Adapter             - 18683     (GHP006565) - 2122046
+*/
+
+
+UIMessage('E78 extras', TextColor='Blue', BackColor='White');
+UIMessage('information', TextColor='Gray', BackColor='White');
+UIMessage('Housing - 14132 (GH007328) - 2161878', TextColor='Gray', BackColor='White');
+UIMessage('Adapter - 18679 (GHP006574) - 1907618', TextColor='Gray', BackColor='White');
+UIMessage('Adapter - 18683 (GHP006565) - 2122046', TextColor='Gray', BackColor='White');
+UIMessage('');
+UIMessage('Jungties korpusas E78<BR>testuojamas E78_2 detalėje', TextColor='#FFFFFF', BackColor='#1A9AD7');
+UIMessagePanelMedia('<BR>E78 >> E78_2', File= 'S:\TestData\NTG\IMAGES\warning.jpg', Size= LARGE);
+TestConnection('E78 locking', "E78_2 GND", "E78_2 LOCK");
+TestConnection('E78 lever', "E78_2 GND", "E78_2 LEVER");
+ParamContinuity(Tmeas=500ms);
+TestConnection('E78 adapter', "E78_2 ADAPTER 1", "E78_2 ADAPTER 2");
+ParamResetContinuity();
+TestConnection('E78 adapter', "E78_2 GND", "E78_2 ADAPTER_BK");
+TestConnection('E78 adapter', "E78_2 GND", "E78_2 ADAPTER_YE");
+TestConnection('E78 leak test', "E78_2 SEAL 1", "E78_2 SEAL 2");
+UIMessage('- - - - - - - - - - - - - - - - - - - -');
+
+
+TestConnection('E78 1/10', "E78 1", "E78 10");
+TestConnection('E78 2/11', "E78 2", "E78 11");
+TestConnection('E78 3/12', "E78 3", "E78 12");
+TestConnection('E78 4/13', "E78 4", "E78 13");
+TestConnection('E78 5/14', "E78 5", "E78 14");
+TestConnection('E78 6/15', "E78 6", "E78 15");
+TestConnection('E78 7/16', "E78 7", "E78 16");
+TestConnection('E78 8/17', "E78 8", "E78 17");
+TestConnection('E78 9/18', "E78 9", "E78 18");
+UIMessagePanelClose();
+
+
+end.

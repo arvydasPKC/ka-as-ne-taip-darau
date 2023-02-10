@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IvisionStudioProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AdapterPintableEnabled>false</AdapterPintableEnabled>
+  <AssemblyName>IvisionStudio</AssemblyName>
+  <AssemblyVersion Major="2" Minor="4" Build="2" Revision="0" />
+  <Created>2022-03-03T03:11:51.7105365+02:00</Created>
+  <Created_by>testmaintenance</Created_by>
+  <ForceRecompile>false</ForceRecompile>
+  <HwMatrixConfigurationName>WK260_Default</HwMatrixConfigurationName>
+  <IsHwMatrixConfigurationDefault>true</IsHwMatrixConfigurationDefault>
+  <LastChanged>2022-03-03T03:11:51.7105365+02:00</LastChanged>
+  <LastChanged_by>testmaintenance</LastChanged_by>
+  <PinRange>3200</PinRange>
+  <PinRangeConnector>50</PinRangeConnector>
+  <ProjectName>_CP__E78_GH007302_GHP005113</ProjectName>
+  <TargetProfileId>WK260_PC</TargetProfileId>
+  <TestDeskModuleSupport>false</TestDeskModuleSupport>
+</IvisionStudioProject>

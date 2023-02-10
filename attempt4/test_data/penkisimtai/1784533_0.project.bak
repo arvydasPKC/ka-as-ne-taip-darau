@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IvisionStudioProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ConnectorSeparator>.</ConnectorSeparator>
+  <Created>2022-09-23T01:54:46+03:00</Created>
+  <Created_by>ModuleMaker_v.1.9.0.0</Created_by>
+  <LastChanged>2022-09-23T01:54:46+03:00</LastChanged>
+  <LastChanged_by>ModuleMaker_v.1.9.0.0</LastChanged_by>
+  <PinRange>4480</PinRange>
+  <PinRangeConnector>70</PinRangeConnector>
+  <ProjectName>1784533_0</ProjectName>
+  <TargetProfileId>WK260_PC</TargetProfileId>
+  <TestDeskModuleSupport>false</TestDeskModuleSupport>
+  <Version />
+</IvisionStudioProject>

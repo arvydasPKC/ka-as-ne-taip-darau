@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUnsignedShort xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <unsignedShort>28</unsignedShort>
+  <unsignedShort>29</unsignedShort>
+  <unsignedShort>32</unsignedShort>
+  <unsignedShort>48</unsignedShort>
+  <unsignedShort>49</unsignedShort>
+  <unsignedShort>50</unsignedShort>
+  <unsignedShort>66</unsignedShort>
+  <unsignedShort>67</unsignedShort>
+  <unsignedShort>68</unsignedShort>
+  <unsignedShort>984</unsignedShort>
+  <unsignedShort>985</unsignedShort>
+  <unsignedShort>986</unsignedShort>
+  <unsignedShort>987</unsignedShort>
+  <unsignedShort>988</unsignedShort>
+  <unsignedShort>990</unsignedShort>
+  <unsignedShort>991</unsignedShort>
+  <unsignedShort>992</unsignedShort>
+  <unsignedShort>993</unsignedShort>
+</ArrayOfUnsignedShort>

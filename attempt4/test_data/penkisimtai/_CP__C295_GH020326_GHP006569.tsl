@@ -1,0 +1,33 @@
+// connector verification program
+
+/*  information
+    Housing         - GH020326  (GH020326)  - 2294343
+	Cover           - 9953      (GHP006569) - 2149543
+*/
+
+
+UIMessage('C295 extras', TextColor='Blue', BackColor='White');
+UIMessage('information', TextColor='Gray', BackColor='White');
+UIMessage('Housing - GH020326 (GH020326) - 2294343', TextColor='Gray', BackColor='White');
+UIMessage('Cover - 9953 (GHP006569) - 2149543', TextColor='Gray', BackColor='White');
+UIMessage('');
+TestConnection('C295 locking', "C295_2 LOCK 1", "C295_2 LOCK 2");
+TestConnection('C295 cover', "C295_2 GND", "C295_2 COVER");
+TestConnection('C295 leak test', "C295_2 SEAL 1", "C295_2 SEAL 2");
+UIMessage('- - - - - - - - - - - - - - - - - - - -');
+
+
+TestConnection('C295 1/4', "C295 1", "C295 4");
+TestConnection('C295 2/3', "C295 2", "C295 3");
+TestConnection('C295 5/6', "C295 5", "C295 6");
+TestConnection('C295 7/10', "C295 7", "C295 10");
+TestConnection('C295 8/9', "C295 8", "C295 9");
+TestConnection('C295 11/12', "C295 11", "C295 12");
+TestConnection('C295 13/16', "C295 13", "C295 16");
+TestConnection('C295 13/19', "C295 13", "C295 19");
+TestConnection('C295 14/15', "C295 14", "C295 15");
+TestConnection('C295 17/18', "C295 17", "C295 18");
+TestConnection('C295 20/21', "C295 20", "C295 21");
+
+
+end.

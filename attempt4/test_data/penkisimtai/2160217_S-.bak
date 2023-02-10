@@ -1,0 +1,54 @@
+/*	Brėžinio duomenys
+	"pavadinimas"
+	version
+*/
+
+CommandBlock( 'Connections' ) 
+{
+
+	StopwatchStart(); 
+UIMessage( '2160217_S-' );
+
+TestConnection( 'COL9', "C8158.P 7", "C101 28" );
+TestConnection( 'COL10', "C8158.P 8", "C101 27" );
+TestConnection( 'COL13', "C8158.P 4", "C101 67" );
+TestConnection( 'COL14', "C8158.P 5", "C101 66" );
+TestConnection( 'COL15', "C8158.P 10", "C101 65" );
+TestConnection( 'COL16', "C8158.P 9", "C101 31" );
+TestConnection( 'COL11', "C8158.P 2", "C101 49" );
+TestConnection( 'COL12', "C8158.P 3", "C101 48" );
+TestConnection( 'COL18', "C101 47", "C8158.P 1" );
+
+// 14.12.15
+
+
+	// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	// Paskaičiuojamas ir parodomas testavimo laikas
+	_duration = StopwatchGet();  //Set variable 
+	_duration = _duration * 0.001; //Multiplication to show time in seconds 
+	_time = StrAdd(Str1= 'Testavimo laikas: ', Str2= _duration); 
+	UIMessage(_time, TextColor='Gainsboro', BackColor='White');
+
+	if ( _duration >= 20) // Tikrinamas testavimo laikas
+	{
+        UIMessageStop('Buvo viršytas testavimo laikas', Size=NORMAL, TextColor='Black', BackColor='Orange');
+		_counter = _counter + 1;	
+		FileWriteIni( File= 'C:\TMP\Module_times.txt', Section= 'Module', Key= _counter, Value= '2160217_S-');
+	}
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    UIMessage('+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +', TextColor='Gray', BackColor='White');
+    UIMessage('');
+}
+
+end.
+
+
+/*	Moduliui priklausantys jungties korpusai
+	"įrašyti"
+*/
+
+/*	Modulis sukurtas
+	"data"
+	"vardas pavarde"
+*/

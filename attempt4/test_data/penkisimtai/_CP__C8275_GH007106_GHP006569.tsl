@@ -1,0 +1,34 @@
+// connector verification program
+
+/*  information
+    Housing         - 9952      (GH007106)  - 2122498
+	Cover           - 9953      (GHP006569) - 2149543
+*/
+
+UIMessage('C8275 extras', TextColor='Blue', BackColor='White');
+UIMessage('information', TextColor='Gray', BackColor='White');
+UIMessage('Housing - 9952 (GH007106) - 2122498', TextColor='Gray', BackColor='White');
+UIMessage('Cover - 9953 (GHP006569) - 2149543', TextColor='Gray', BackColor='White');
+UIMessage('');
+TestConnection('C8275 locking', "C8275 GND", "C8275 LOCK 1");
+TestConnection('C8275 locking', "C8275 GND", "C8275 LOCK 2");
+TestConnection('C8275 lever', "C8275 GND", "C8275 LEVER");
+TestConnection('C8275 cover', "C8275 GND", "C8275 COVER");
+TestConnection('C8275 leak test', "C8275 SEAL 1", "C8275 SEAL 2");
+UIMessage('- - - - - - - - - - - - - - - - - - - -');
+
+
+TestConnection('C8275 1/4', "C8275 1", "C8275 4");
+TestConnection('C8275 7/10', "C8275 7", "C8275 10");
+TestConnection('C8275 13/16', "C8275 13", "C8275 16");
+TestConnection('C8275 19/20', "C8275 19", "C8275 20");
+TestConnection('C8275 17/14', "C8275 17", "C8275 14");
+TestConnection('C8275 11/8', "C8275 11", "C8275 8");
+TestConnection('C8275 5/2', "C8275 5", "C8275 2");
+TestConnection('C8275 3/6', "C8275 3", "C8275 6");
+TestConnection('C8275 9/12', "C8275 9", "C8275 12");
+TestConnection('C8275 15/18', "C8275 15", "C8275 18");
+TestConnection('C8275 20/21', "C8275 20", "C8275 21");
+
+
+end.

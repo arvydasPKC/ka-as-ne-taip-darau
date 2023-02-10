@@ -1,0 +1,20 @@
+UIMessage('T115 extras', TextColor='Blue', BackColor='White');
+UIMessage('information', TextColor='Gray', BackColor='White');
+UIMessage('Housing   10425  GH006211   1865259', TextColor='Gray', BackColor='White');
+UIMessage('Adapter   3377  GHP007394  1507598', TextColor='Gray', BackColor='White');
+UIMessage('');
+TestConnection('T115 locking', "T115 GND", "T115 LOCK");
+TestConnection('T115 lever', "T115 GND", "T115 LEVER");
+TestConnection('T115 adapter BK', "T115 GND", "T115 ADAPTER_BK");
+TestConnection('T115 adapter YE', "T115 GND", "T115 ADAPTER_YE");
+ParamContinuity(Tmeas=500ms);
+TestConnection('T115 adapter sls', "T115 ADAPTER 1", "T115 ADAPTER 2");
+ParamResetContinuity();
+TestConnection('T115 leak test', "T115 SEAL 1", "T115 SEAL 2");
+UIMessage('- - - - - - - - - - - - - - - - - - - -');
+
+TestConnection('T115 1/2', "T115 1", "T115 2");
+TestConnection('T115 3/4', "T115 3", "T115 4");
+
+
+END.

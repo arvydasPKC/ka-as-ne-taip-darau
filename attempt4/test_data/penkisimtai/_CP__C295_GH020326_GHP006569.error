@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfIvisionError xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IvisionError>
+    <Description>Pin "C295_2 GND" not found</Description>
+    <Level>Error</Level>
+    <FirstPosition>
+      <DisplayLine>15</DisplayLine>
+      <DisplayCharacter>30</DisplayCharacter>
+    </FirstPosition>
+    <EndPosition>
+      <DisplayLine>15</DisplayLine>
+      <DisplayCharacter>42</DisplayCharacter>
+    </EndPosition>
+    <ErrorType>PinNotFound</ErrorType>
+    <ModuleInfo>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__C295_GH020326_GHP006569.tsl</ModuleInfo>
+    <TestPoint>C295_2 GND</TestPoint>
+    <PinAddress>0</PinAddress>
+    <TslFilename>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__C295_GH020326_GHP006569.tsl</TslFilename>
+    <TslCode>"C295_2 GND"</TslCode>
+  </IvisionError>
+  <IvisionError>
+    <Description>Pin "C295_2 COVER" not found</Description>
+    <Level>Error</Level>
+    <FirstPosition>
+      <DisplayLine>15</DisplayLine>
+      <DisplayCharacter>44</DisplayCharacter>
+    </FirstPosition>
+    <EndPosition>
+      <DisplayLine>15</DisplayLine>
+      <DisplayCharacter>58</DisplayCharacter>
+    </EndPosition>
+    <ErrorType>PinNotFound</ErrorType>
+    <ModuleInfo>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__C295_GH020326_GHP006569.tsl</ModuleInfo>
+    <TestPoint>C295_2 COVER</TestPoint>
+    <PinAddress>0</PinAddress>
+    <TslFilename>S:\TestData\NTG\Frame FA\FrameFA_01\TestFiles\_CP__C295_GH020326_GHP006569.tsl</TslFilename>
+    <TslCode>"C295_2 COVER"</TslCode>
+  </IvisionError>
+</ArrayOfIvisionError>

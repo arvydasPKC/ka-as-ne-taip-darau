@@ -1,0 +1,58 @@
+// connector verification program
+
+//  ==========|    E67     |============================================================
+/*  information
+    Housing       - 10265 (GH005983) - 2784408
+    Cover         - 2062 (GHP006022) - 1926640
+*/
+    
+        UIMessage('E67 extras', TextColor='Blue', BackColor='White');
+        UIMessage('information', TextColor='Gray', BackColor='White');
+        UIMessage('Housing       - 10265 (GH005983) - 2784408', TextColor='Gray', BackColor='White');
+        UIMessage('Cover         - 2062 (GHP006022) - 1926640', TextColor='Gray', BackColor='White');
+        UIMessage('');
+        TestConnection('E67 lock', "E67 GND", "E67 LOCK" );
+        TestConnection('E67 slide', "E67 GND", "E67 SLIDE" );
+        TestConnection('E67 lever', "E67 GND", "E67 LEVER" );
+        ParamContinuity(Tmeas=500ms);
+        TestConnection('E67 cover', "E67 COVER 1", "E67 COVER 2" );
+        ParamResetContinuity();
+        TestConnection('E67 seal', "E67 SEAL 1", "E67 SEAL 2" );
+        UIMessage('- - - - - - - - - - - - - - - - - - - -');
+        
+        TestConnection('E67 1/62', "E67 1", "E67 62");
+        TestConnection('E67 2/61', "E67 2", "E67 61");
+        TestConnection('E67 3/60', "E67 3", "E67 60");
+        TestConnection('E67 4/59', "E67 4", "E67 59");
+        TestConnection('E67 5/58', "E67 5", "E67 58");
+        TestConnection('E67 6/57', "E67 6", "E67 57");
+        TestConnection('E67 7/56', "E67 7", "E67 56");
+        TestConnection('E67 8/55', "E67 8", "E67 55");
+        TestConnection('E67 9/54', "E67 9", "E67 54");
+        TestConnection('E67 10/53', "E67 10", "E67 53");
+        TestConnection('E67 11/52', "E67 11", "E67 52");
+        TestConnection('E67 12/51', "E67 12", "E67 51");
+        TestConnection('E67 13/50', "E67 13", "E67 50");
+        TestConnection('E67 14/49', "E67 14", "E67 49");
+        TestConnection('E67 15/48', "E67 15", "E67 48");
+        TestConnection('E67 16/47', "E67 16", "E67 47");
+        TestConnection('E67 17/46', "E67 17", "E67 46");
+        TestConnection('E67 18/45', "E67 18", "E67 45");
+        TestConnection('E67 19/44', "E67 19", "E67 44");
+        TestConnection('E67 20/43', "E67 20", "E67 43");
+        TestConnection('E67 21/42', "E67 21", "E67 42");
+        TestConnection('E67 20/41', "E67 20", "E67 41");
+        TestConnection('E67 21/40', "E67 21", "E67 40");
+        TestConnection('E67 22/39', "E67 22", "E67 39");
+        TestConnection('E67 23/38', "E67 23", "E67 38");
+        TestConnection('E67 24/37', "E67 24", "E67 37");
+        TestConnection('E67 25/36', "E67 25", "E67 36");
+        TestConnection('E67 26/35', "E67 26", "E67 35");
+        TestConnection('E67 27/34', "E67 27", "E67 34");
+        TestConnection('E67 28/33', "E67 28", "E67 33");
+        TestConnection('E67 29/32', "E67 29", "E67 32");
+        TestConnection('E67 30/31', "E67 30", "E67 31");
+
+
+
+end.

@@ -1,0 +1,24 @@
+/*  information
+    Housing         - 30709     (GH015279)  - 2311705
+	Locking         - S9958     (GHP005691) - 1505951
+*/
+
+
+UIMessage('M62.A extras', TextColor='Blue', BackColor='White');
+UIMessage('information', TextColor='Gray', BackColor='White');
+UIMessage('Housing - 30709 (GH015279) - 2311705', TextColor='Gray', BackColor='White');
+UIMessage('Locking - S9958 (GHP005691) - 1505951', TextColor='Gray', BackColor='White');
+UIMessage('');
+ParamContinuity(Tmeas=500ms);
+TestConnection('M62.A ', "M62.A ADAPTER 1", "M62.A ADAPTER 2");
+ParamResetContinuity();
+TestConnection('M62.A leak test', "M62.A SEAL 1", "M62.A SEAL 2");
+UIMessage('- - - - - - - - - - - - - - - - - - - -');
+
+
+TestConnection('M62.A 1/6', "M62.A 1", "M62.A 6");
+TestConnection('M62.A 2/5', "M62.A 2", "M62.A 5");
+TestConnection('M62.A 3/4', "M62.A 3", "M62.A 4");
+
+
+end.

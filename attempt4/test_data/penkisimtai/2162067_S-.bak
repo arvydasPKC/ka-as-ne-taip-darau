@@ -1,0 +1,56 @@
+/*	Brėžinio duomenys
+	"pavadinimas"
+	version
+*/
+
+CommandBlock( 'Connections' ) 
+{
+
+	StopwatchStart(); 
+// previousversion S-
+UIMessage('2162067_S-');
+
+//TestConnection('BK CMS15', "M55.D 1", "C8074 1");
+//TestConnection('OG CMS14', "M55.C 1", "C8074 2");
+
+UIMessageStop('Sujunkite C8074 namelius.', Size= NORMAL);
+ParamContinuity( R= 30Ohm, I= 100mA, Twait= 0ms, Tmeas= 1ms );
+TestProbe('Probe BK CMS15 M55.D:1 >>> C8074:1 >> E113.A:15', "E113.A 15");
+TestProbe('Probe OG CMS14 M55.C:1 >>> C8074:2 >> E113.A:13', "E113.A 13");
+ParamResetContinuity();
+
+
+
+// 2017.02.24
+// Gediminas
+
+	// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	// Paskaičiuojamas ir parodomas testavimo laikas
+	_duration = StopwatchGet();  //Set variable 
+	_duration = _duration * 0.001; //Multiplication to show time in seconds 
+	_time = StrAdd(Str1= 'Testavimo laikas: ', Str2= _duration); 
+	UIMessage(_time, TextColor='Gainsboro', BackColor='White');
+
+	if ( _duration >= 20) // Tikrinamas testavimo laikas
+	{
+        UIMessageStop('Buvo viršytas testavimo laikas', Size=NORMAL, TextColor='Black', BackColor='Orange');
+		_counter = _counter + 1;	
+		FileWriteIni( File= 'C:\TMP\Module_times.txt', Section= 'Module', Key= _counter, Value= '2162067_S-');
+	}
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    UIMessage('+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +', TextColor='Gray', BackColor='White');
+    UIMessage('');
+}
+
+end.
+
+
+/*	Moduliui priklausantys jungties korpusai
+	"įrašyti"
+*/
+
+/*	Modulis sukurtas
+	"data"
+	"vardas pavarde"
+*/

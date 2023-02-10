@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IvisionStudioProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AssemblyName>IvisionStudio</AssemblyName>
+  <AssemblyVersion Major="2" Minor="1" Build="3" Revision="0" />
+  <Created>2016-11-08T10:19:45+02:00</Created>
+  <Created_by>ModuleMaker_v.1.6.2</Created_by>
+  <IsHwMatrixConfigurationDefault>true</IsHwMatrixConfigurationDefault>
+  <LastChanged>2016-11-08T10:19:45+02:00</LastChanged>
+  <LastChanged_by>ModuleMaker_v.1.6.2</LastChanged_by>
+  <PinRange>2688</PinRange>
+  <PinRangeConnector>50</PinRangeConnector>.
+  <ProjectName>2132920_S-</ProjectName>
+  <TargetProfileId>WK260_PC</TargetProfileId>
+  <TestDeskModuleSupport>false</TestDeskModuleSupport>
+</IvisionStudioProject>

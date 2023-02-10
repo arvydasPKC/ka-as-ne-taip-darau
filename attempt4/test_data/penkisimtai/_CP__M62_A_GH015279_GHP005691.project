@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IvisionStudioProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AdapterPintableEnabled>false</AdapterPintableEnabled>
+  <AssemblyName>IvisionStudio</AssemblyName>
+  <AssemblyVersion Major="2" Minor="4" Build="2" Revision="0" />
+  <Created>2021-07-14T09:14:47.5409853+03:00</Created>
+  <Created_by>aivja</Created_by>
+  <Description>connector M62.A (GH015279 + GHP005691)</Description>
+  <ForceRecompile>false</ForceRecompile>
+  <HwMatrixConfigurationName>WK260_Default</HwMatrixConfigurationName>
+  <IsHwMatrixConfigurationDefault>true</IsHwMatrixConfigurationDefault>
+  <LastChanged>2021-07-14T09:14:47.5409853+03:00</LastChanged>
+  <LastChanged_by>aivja</LastChanged_by>
+  <PinRangeConnector>77777777777777777</PinRangeConnector>.
+  <PinRangeConnector>51</PinRangeConnector>
+  <ProjectName>_CP__M62_A_GH015279_GHP005691</ProjectName>
+  <TargetProfileId>WK260_PC</TargetProfileId>
+  <TestDeskModuleSupport>false</TestDeskModuleSupport>
+</IvisionStudioProject>
